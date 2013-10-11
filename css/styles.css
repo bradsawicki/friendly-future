@@ -1,0 +1,117 @@
+@import url(fonts/iconfont.css);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } ol, ul { list-style: none; } button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; } button, input { line-height: normal; } input { -webkit-appearance: none; border-radius: 0; } button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer;  *overflow: visible; } button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; } .cf:before, .cf:after { content: " "; display: table; } .cf:after {clear: both;} .cf { *zoom: 1; } * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } img { max-width: 100%; height: auto; vertical-align: middle; } iframe { width: 100%; }
+
+html, body { width: 100%; height: 100%; }
+
+body {
+    background: url(../images/bg.jpg) center center;
+	color: #9ce1d3;
+	font: 100 1em/1.5em "proxima-nova", Helvetica, arial, sans-serif;
+}
+
+/**========================================================
+    LAYOUT
+========================================================**/
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: url(../images/mark.png) no-repeat center center;
+}
+
+.main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    max-width: 700px;
+    margin-left: -350px;
+    margin-top: -62px;
+    text-align: center;
+}
+
+.left {	float: left; }
+.right { float: right; }
+
+
+/**========================================================
+    TYPE
+========================================================**/
+
+.title {
+    margin-bottom: 1.2em;
+    position: relative;
+    font-size: 50px;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+}
+
+.title:after {
+    content: "";
+    position: absolute;
+    top: 1.55em;
+    left: 50%;
+    width: 120px;
+    height: 4px;
+    margin-left: -60px;
+    background: #9ce1d3;
+}
+
+p {
+    max-width: 550px;
+    margin: 0 auto 1.3em;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+
+/**========================================================
+    LINKS / BUTTONS
+========================================================**/
+
+a {
+    outline: none;
+	color: #9ce1d3;
+	font-size: 0.75em;
+	font-weight: 400;
+	letter-spacing: 0.15em;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-ms-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.btn .icon {
+    display: inline-block;
+    width: 62px;
+    margin-bottom: 0.1em;
+}
+
+
+/**========================================================
+    HEADER
+========================================================**/
+
+
+
+/**========================================================
+    HERO
+========================================================**/
+
+
+/**========================================================
+    MEDIA QUERIES
+========================================================**/
+
+@media all and (max-width: 1110px) {
+    .compare .left .item { padding: 0 4%; }
+}
