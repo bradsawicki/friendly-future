@@ -112,6 +112,9 @@ a:hover {
     MEDIA QUERIES
 ========================================================**/
 
-@media all and (max-width: 1110px) {
-    .compare .left .item { padding: 0 4%; }
+@media all and (max-width: 740px) {
+    .wrapper { background-position: center 1em; background-size: 14em auto; }
+    .main { position: relative; top: auto; left: auto; width: auto; margin: 10% 0 0; }
+    .title { font-size: 40px; }
+    p { font-size: 1.125em; }
 }
