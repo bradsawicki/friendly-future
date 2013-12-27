@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chicago Web Design | Chicago Web Development - Friendly Future</title>
 	<link rel="shortcut icon" href="/images/favicon.ico">
-	<link href="/css/fonts/ss-social.css" rel="stylesheet" media="all">
-	<link href="/css/styles.css" rel="stylesheet" media="all">
+	<link href="./css/fonts/ss-social.css" rel="stylesheet" media="all">
+	<link href="./css/styles.css" rel="stylesheet" media="all">
     <script type="text/javascript" src="//use.typekit.net/vbi2hlh.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>	<!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
