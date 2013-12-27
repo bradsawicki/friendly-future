@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section class="info cf">
+    <section id="info" class="info cf">
         <div class="wrapper cf">
 
             <h3 class="section-title">Our project are:</h3>
@@ -81,7 +81,7 @@
         </div>
     </section>
     
-    <section class="work">
+    <section id="work" class="work">
         <div class="wrapper cf">
            
             <h3 class="section-title">We've worked on:</h3>
@@ -104,7 +104,7 @@
         </div>
     </section>
 
-    <section class="team">
+    <section id="team" class="team">
         <div class="wrapper cf">
 
             <h3 class="section-title">Nice to meet you.</h3>
@@ -145,7 +145,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
         <div class="wrapper cf">
         
             <h2 class="title">Contact</h2>
