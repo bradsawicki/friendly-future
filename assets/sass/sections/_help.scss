@@ -1,0 +1,17 @@
+
+.help {
+    background: $bg-help;
+}
+
+.help .help-title {
+    margin-bottom: 40px;
+    color: #12e2c0;
+}
+
+.help li {
+    max-width: 600px;
+    margin-bottom: 24px;
+    color: #fff;
+    font: 900 56px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
+    text-transform: uppercase;
+}

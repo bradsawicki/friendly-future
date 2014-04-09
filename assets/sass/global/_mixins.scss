@@ -1,0 +1,26 @@
+@mixin cf {
+    &:before, &:after {
+        content: " ";
+        display: block;
+    }
+    &:after {
+        clear: both;
+    }
+    *zoom:1;
+}
+
+@mixin wave-border-top() {
+    background: image-url("wave-top.png") repeat-x left top;
+}
+
+@mixin wave-border-bottom() {
+    background: image-url("wave-bottom.png") repeat-x left bottom;
+}
+
+@mixin wave-divider-top() {
+    background: image-url("wave-divider.png") repeat-x left top;
+}
+
+@mixin wave-divider-bottom() {
+    background: image-url("wave-divider.png") repeat-x left bottom;
+}

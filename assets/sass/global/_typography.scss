@@ -1,0 +1,89 @@
+
+$rooney: "rooney-web", Georgia, serif;
+$brandon: "brandon-grotesque", Helvetica, arial, sans-serif;
+
+$light: 300;
+$book: 400;
+$semi: 600;
+$bold: 700;
+$heavy: 900;
+
+$base: 24px;
+
+body {
+	color: $grey;
+	font: $book 1em/1.5em $rooney;
+}
+
+h1,h2,h3 {
+    font-family: $brandon;
+    font-weight: $heavy;
+}
+
+/*
+h1 {
+    font-size: 76px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+*/
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+h3 {
+	font: 400 40px/1em $rooney;
+}
+
+.section-title {
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+}
+
+.title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50px;
+    height: 3px;
+    margin-left: -25px;
+    background: #00b899;
+}
+
+p {
+    line-height: 24px;
+}
+
+strong {
+	font-weight: $bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.body p,
+.body ul,
+.body ol {
+	margin-bottom: 22px;
+	&:last-child {
+    	margin-bottom: 0;
+	}
+}
+
+.body ul,
+.body ol {
+    margin-left: 1.5em;
+}
+
+.body li {
+    list-style: disc;
+}

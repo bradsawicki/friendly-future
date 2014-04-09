@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chicago Web Design | Chicago Web Development - Friendly Future</title>
 	<link rel="shortcut icon" href="/images/favicon.ico">
-	<link href="/css/fonts/ss-social.css" rel="stylesheet" media="all">
-	<link href="/css/styles.css" rel="stylesheet" media="all">
+	<link href="/assets/css/fonts/ss-social.css" rel="stylesheet" media="all">
+	<link href="/assets/css/application.css" rel="stylesheet" media="all">
     <script type="text/javascript" src="//use.typekit.net/vbi2hlh.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>	<!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,7 +35,11 @@
     <section class="hero cf">
         <div class="wrapper cf">
 
-            <h1 class="title">Super Rad Web Design and Development</h1>
+            <h1 class="title">
+                <span class="line-1">We're Building a</span>
+                <span class="line-2">Friendly</span>
+                <span class="line-3">Future</span>
+            </h1>
             <p class="intro">We create and implement scalable, world-class web experiences for startups and established companies.</p>
             <p><a href="#contact" class="btn">Contact Us</a></p>
         
@@ -210,6 +214,6 @@
     </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="/js/scripts.js"></script>
+<script src="/assets/js/scripts.js"></script>
 </body>
 </html>

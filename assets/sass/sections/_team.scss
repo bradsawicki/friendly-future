@@ -1,0 +1,77 @@
+
+.team {
+    background: #3a4946;
+/*     border-bottom: #3a4946 80px solid; */
+}
+
+.team .section-title {
+    margin-bottom: 24px;
+}
+
+.team .intro {
+    max-width: 720px;
+    margin: 0 auto 60px;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.the-bubs {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.bub {
+    position: relative;
+    float: left;
+    width: 25%;
+/*     margin-bottom: -114px; */
+}
+
+.bub:after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 2px;
+    height: 90px;
+    background: #9cedd9;
+}
+
+.bub:first-child:before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 2px;
+    height: 100px;
+    background: #9cedd9;
+}
+
+.bub .head-shot {
+/*     height: 268px; */
+}
+
+/*
+.bub .head-shot img {
+    display: none;
+}
+*/
+
+.bub .info {
+    text-align: center;
+}
+
+.bub .name {
+    margin-bottom: 4px;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1em;
+}
+
+.bub .role {
+    color: #00b899;
+    font: 700 16px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

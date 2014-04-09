@@ -1,0 +1,23 @@
+
+a {
+	@include single-transition(all, 0.1s, ease-in);
+    outline: none;
+	color: #12e2c0;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #010101;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 50px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 rgba(255,255,255,0.6);
+    color: #00b899;
+    font: 900 20px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,26 @@
+
+.info .col {
+    text-align: center;
+}
+
+.info .icon {
+    width: 115px;
+    height: 115px;
+    margin: 0 auto 32px;
+    background: #fff;
+}
+
+.info .title {
+    margin-bottom: 24px;
+    color: #00b899;
+}
+
+.info .title:after {
+    bottom: -14px;
+    background: #12e2c0;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 27px;
+}

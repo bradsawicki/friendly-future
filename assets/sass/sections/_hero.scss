@@ -1,0 +1,41 @@
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background: $lt-green;
+    text-align: center;
+}
+
+.hero .title [class*="line-"] {
+    display: block;
+}
+
+.hero .line-1 {
+    color: $dk-green;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+.hero .line-2 {
+    color: #fff;
+    font-size: 140px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.hero .line-3 {
+    color: #fff;
+    font: italic $book 100px/1 $rooney;
+    letter-spacing: 0.02em;
+    text-transform: none;
+}
+
+.hero .intro {
+    max-width: 650px;
+    margin: 0 auto 48px;
+    font-size: 35px;
+    line-height: 47px;
+}
