@@ -1,6 +1,9 @@
 
 .help {
     background: $bg-help;
+    .wrapper {
+        padding-bottom: $base*5;
+    }
 }
 
 .help .help-title {
@@ -9,9 +12,9 @@
 }
 
 .help li {
-    max-width: 600px;
-    margin-bottom: 24px;
+    max-width: 700px;
+    margin-bottom: $base;
     color: #fff;
-    font: 900 56px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
+    font: $bold 46px/56px $brandon;
     text-transform: uppercase;
 }

@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chicago Web Design | Chicago Web Development - Friendly Future</title>
 	<link rel="shortcut icon" href="/images/favicon.ico">
-	<link href="/assets/css/fonts/ss-social.css" rel="stylesheet" media="all">
+<!-- 	<link href="/assets/css/fonts/ss-social.css" rel="stylesheet" media="all"> -->
 	<link href="/assets/css/application.css" rel="stylesheet" media="all">
     <script type="text/javascript" src="//use.typekit.net/vbi2hlh.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>	<!--[if lt IE 9]>
@@ -16,13 +16,13 @@
 </head>
 <body>
 
-    <header class="header cf">
-        <div class="wrapper cf">
+    <header class="header">
+        <div class="wrapper">
 
             <div class="logo">Friendly Future</div>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#help">Our Mission</a></li>
                     <li><a href="#work">Our Work</a></li>
                     <li><a href="#team">The Team</a></li>
                     <li><a href="#contact" class="btn">Contact Us</a></li>
@@ -32,8 +32,8 @@
         </div>
     </header>
     
-    <section class="hero cf">
-        <div class="wrapper cf">
+    <section class="hero">
+        <div class="wrapper">
 
             <h1 class="title">
                 <span class="line-1">We're Building a</span>
@@ -46,12 +46,12 @@
         </div>
     </section>
     
-    <section class="help">
-        <div class="wrapper cf">
+    <section id="help" class="help">
+        <div class="wrapper">
 
             <h3 class="help-title">We help clients:</h3>
             <ul>
-                <li>Building Web Experiences</li>
+                <li>Build New Web Products</li>
                 <li>Improve Existing Experiences</li>
                 <li>Validate Ideas</li>
             </ul>
@@ -59,10 +59,10 @@
         </div>
     </section>
 
-    <section id="info" class="info cf">
-        <div class="wrapper cf">
+    <section id="info" class="info">
+        <div class="wrapper">
 
-            <h3 class="section-title">Our project are:</h3>
+            <h3 class="section-title">Our projects are:</h3>
             
             <div class="grid">
                 <div class="col col-1-3">
@@ -86,19 +86,19 @@
     </section>
     
     <section id="work" class="work">
-        <div class="wrapper cf">
+        <div class="wrapper">
            
             <h3 class="section-title">We've worked on:</h3>
             
             <div class="grid">
                 <div class="col col-1-2">
-                    <div class="screen"><img src="images/screen-teg.jpg" alt="The Everygirl" /></div>
+                    <div class="screen"><img src="/assets/images/screen-teg.jpg" alt="The Everygirl" /></div>
                     <h2>The Everygirl</h2>
                     <p>With the broad acceptance of smartphones and tablets, designing separately for mobile is no longer optional. We use responsive design and development methods to create products that look beautiful and perform optimally at any screen size.</p>
                     <p><a href="" target="_blank">Launch the site <span class="lt-icon"></span></a>
                 </div>
                 <div class="col col-1-2">
-                    <div class="screen"><img src="images/screen-teg.jpg" alt="The Everygirl" /></div>
+                    <div class="screen"><img src="/assets/images/screen-teg.jpg" alt="The Everygirl" /></div>
                     <h2>Sing Me a Story</h2>
                     <p>With the broad acceptance of smartphones and tablets, designing separately for mobile is no longer optional. We use responsive design and development methods to create products that look beautiful and perform optimally at any screen size.</p>
                     <p><a href="" target="_blank">Launch the site <span class="lt-icon"></span></a>
@@ -109,7 +109,7 @@
     </section>
 
     <section id="team" class="team">
-        <div class="wrapper cf">
+        <div class="wrapper">
 
             <h3 class="section-title">Nice to meet you.</h3>
             
@@ -117,28 +117,28 @@
             
             <div class="the-bubs">
                 <div class="bub">
-                    <div class="head-shot"><img src="images/bub-phil.jpg" alt="Philip Weber - User Experience" /></div>
+                    <div class="head-shot"><img src="/assets/images/bub-phil.jpg" alt="Philip Weber - User Experience" /></div>
                     <div class="info">
                         <h4 class="name">Phil</h4>
                         <div class="role">User Experience</div>
                     </div>
                 </div>
                 <div class="bub">
-                    <div class="head-shot"><img src="images/bub-phil.jpg" alt="Dan Leu - Visual Design" /></div>
+                    <div class="head-shot"><img src="/assets/images/bub-phil.jpg" alt="Dan Leu - Visual Design" /></div>
                     <div class="info">
                         <h4 class="name">Dan</h4>
                         <div class="role">Visual Design</div>
                     </div>
                 </div>
                 <div class="bub">
-                    <div class="head-shot"><img src="images/bub-phil.jpg" alt="Brad Sawicki - Front-end Development" /></div>
+                    <div class="head-shot"><img src="/assets/images/bub-phil.jpg" alt="Brad Sawicki - Front-end Development" /></div>
                     <div class="info">
                         <h4 class="name">Brad</h4>
                         <div class="role">Front-end Development</div>
                     </div>
                 </div>
                 <div class="bub">
-                    <div class="head-shot"><img src="images/bub-phil.jpg" alt="Steven Wanderski - Back-end Development" /></div>
+                    <div class="head-shot"><img src="/assets/images/bub-phil.jpg" alt="Steven Wanderski - Back-end Development" /></div>
                     <div class="info">
                         <h4 class="name">Steve</h4>
                         <div class="role">Back-end Development</div>
@@ -150,7 +150,7 @@
     </section>
 
     <section id="contact" class="contact">
-        <div class="wrapper cf">
+        <div class="wrapper">
         
             <h2 class="title">Contact</h2>
             <p class="intro">Enough about us. <span class="talk">Let’s talk about you</span>.</p>
@@ -206,7 +206,7 @@
     </section>
 
     <footer class="footer">
-        <div class="wrapper cf">
+        <div class="wrapper">
         
             <p>Made in Chicago</p>
             <p class="copyright">Copyright ©<?php echo date('Y'); ?> Friendly Future, LLC. All Rights Reserved.</p>

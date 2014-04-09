@@ -1,81 +1,97 @@
 
-.form-block {
-    margin-bottom: $base;
-}
-
-.form-item,
-.form-item-set {
-	margin-bottom: 12px;
-	&:last-of-type {
-    	margin-bottom: 0;
-	}
-}
-
-.form-item-set .form-item {
-    margin-bottom: 0;
-}
-
-.form-two-col {
-    @include cf;
-    .form-item {
-    	float: left;
-    	width: 42%;
-    	margin-right: 4%;
-
-        @include bp-max-width($xsmall) {
-            float: none;
-            width: 100%;
-            margin-right: 0;
-        }
-    }
+.form-item {
+    margin-bottom: 22px;
 }
 
 label {
-	display: block;
-	margin-bottom: 2px;
-	font-size: 16px;
+    margin-bottom: 0.25em;
+    display: block;
+    color: #fff;
+    font: 500 14px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 input[type="text"],
 input[type="email"],
-textarea,
-select {
-	width: 100%;
-	max-width: 340px;
-	padding: 8px 12px;
-	border: 1px solid $lt-green;
-	border-radius: 5px;
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    background: #fff;
+    border: none;
+	font: 400 1em/1.5em "rooney-web", Georgia, serif;
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
+    outline: none;
+}
+
+.webform-component input[type="text"],
+.webform-component input[type="email"] {
+    max-width: 22.375em;
 }
 
 textarea {
-	height: 5em;
+    height: 300px;
+    padding-bottom: 60px;
+    resize: none;
 }
 
+
+/** CUSTOM SELECT =======**/
+
+.select-wrap {
+    position: relative;
+    width: 100%;
+    padding: 0.5em;
+    background: #fff;
+    cursor: pointer;
+}
+
+.select-wrap:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid #12e2c0;
+}
+
+.select-wrap .out {
+    z-index: -1;
+    height: 23px;
+    overflow: hidden;
+    padding: 1px 0px 0px 5px;
+    cursor: pointer;
+}
+
+.select-wrap select {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 8px;
+    opacity: 0;
+    cursor: pointer;
+}
 
 
 /** Buttons ============**/
 
-input[type="submit"], button {
-	padding: 0.5em 1em 0.66em;
-	border-radius: 4px;
-	background: $lt-green;
-	color: #fff;
-	font-size: 18px;
-	text-transform: uppercase;
-	border: none;
-	font: 400 1em/1.5em ;
-	cursor: pointer;
-
-    @include bp-max-width($small) {
-        width: 100%;
-    }
-}
-
-input[type="submit"]:hover, button:hover {
-	color: #fff;
+button {
+    width: 98%;
+    padding: 0.7em 2em;
+    border: none;
+    color: #12e2c0;
+    background: #3a4946;
+    font: 700 20px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
