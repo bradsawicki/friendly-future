@@ -1,7 +1,8 @@
 
 [class*="icon-"] {
-    display: block;
+    display: inline-block;
     background: $sprite;
+    vertical-align: middle;
 }
 
 .icon-functional,
@@ -25,8 +26,20 @@
     background-position: 0 -366px;
 }
 
-icon-chicago {
+.icon-chicago {
     width: 55px;
     height: 48px;
-    background-position: 0 -450px;
+    background-position: 0 -444px;
+}
+
+.icon-arrow {
+    width: 25px;
+    height: 25px;
+    background-position: 0 -497px;
+}
+
+.icon-mail {
+    width: 35px;
+    height: 28px;
+    background-position: -36px -497px;
 }

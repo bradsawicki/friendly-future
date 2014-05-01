@@ -62,7 +62,7 @@
     <section id="info" class="info">
         <div class="wrapper">
 
-            <h3 class="section-title">Our projects are:</h3>
+            <h3 class="title-section">Our projects are:</h3>
             
             <div class="grid">
                 <div class="col-1-3">
@@ -88,20 +88,20 @@
     <section id="work" class="work">
         <div class="wrapper">
            
-            <h3 class="section-title">We've worked on:</h3>
+            <h3 class="title-section">We've worked on:</h3>
             
-            <div class="grid">
+            <div class="grid grid-projects">
                 <div class="col col-1-2">
                     <div class="screen"><img src="/assets/images/screen-teg.jpg" alt="The Everygirl" /></div>
-                    <h2>The Everygirl</h2>
+                    <h2 class="title-project">The Everygirl</h2>
                     <p>With the broad acceptance of smartphones and tablets, designing separately for mobile is no longer optional. We use responsive design and development methods to create products that look beautiful and perform optimally at any screen size.</p>
-                    <p><a href="" target="_blank">Launch the site <span class="lt-icon"></span></a>
+                    <p><a href="" target="_blank">Launch the site <span class="icon-arrow"></span></a>
                 </div>
                 <div class="col col-1-2">
                     <div class="screen"><img src="/assets/images/screen-teg.jpg" alt="The Everygirl" /></div>
-                    <h2>Sing Me a Story</h2>
+                    <h2 class="title-project">Sing Me a Story</h2>
                     <p>With the broad acceptance of smartphones and tablets, designing separately for mobile is no longer optional. We use responsive design and development methods to create products that look beautiful and perform optimally at any screen size.</p>
-                    <p><a href="" target="_blank">Launch the site <span class="lt-icon"></span></a>
+                    <p><a href="" target="_blank">Launch the site <span class="icon-arrow"></span></a>
                 </div>
             </div>
 
@@ -111,11 +111,11 @@
     <section id="team" class="team">
         <div class="wrapper">
 
-            <h3 class="section-title">Nice to meet you.</h3>
+            <h3 class="title-section">Nice to meet you.</h3>
             
             <p class="intro">With the broad acceptance of smartphones and tablets, designing separately for mobile is no longer optional. We use responsive design and development methods to create products that look beautiful and perform optimally at any screen size.</p>
             
-            <div class="the-bubs grid">
+            <div class="grid grid-bubs">
                 <div class="bub col-1-4">
                     <div class="head-shot"><img src="/assets/images/bub-phil.jpg" alt="Philip Weber - User Experience" /></div>
                     <div class="info">
@@ -197,7 +197,7 @@
                         <label for="">Message</label>
                         <textarea  placeholder="Tell us about your project"></textarea>
                     </div>
-                    <button>Submit</button>
+                    <button><span class="icon-mail"></span> Submit</button>
                 </div>
                 
             </form>

@@ -126,7 +126,7 @@ h1 {
 */
 /* line 31, ../sass/global/_typography.scss */
 h2 {
-  font-size: 24px;
+  font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 0.025em;
 }
@@ -137,7 +137,7 @@ h3 {
 }
 
 /* line 41, ../sass/global/_typography.scss */
-.section-title {
+.title-section {
   margin-bottom: 56px;
   text-align: center;
 }
@@ -160,50 +160,52 @@ h3 {
 */
 /* line 63, ../sass/global/_typography.scss */
 p {
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 27px;
 }
 
-/* line 67, ../sass/global/_typography.scss */
+/* line 68, ../sass/global/_typography.scss */
 strong {
   font-weight: 700;
 }
 
-/* line 71, ../sass/global/_typography.scss */
+/* line 72, ../sass/global/_typography.scss */
 em {
   font-style: italic;
 }
 
-/* line 75, ../sass/global/_typography.scss */
+/* line 76, ../sass/global/_typography.scss */
 .body p,
 .body ul,
 .body ol {
   margin-bottom: 22px;
 }
-/* line 79, ../sass/global/_typography.scss */
+/* line 80, ../sass/global/_typography.scss */
 .body p:last-child,
 .body ul:last-child,
 .body ol:last-child {
   margin-bottom: 0;
 }
 
-/* line 84, ../sass/global/_typography.scss */
+/* line 85, ../sass/global/_typography.scss */
 .body ul,
 .body ol {
   margin-left: 1.5em;
 }
 
-/* line 89, ../sass/global/_typography.scss */
+/* line 90, ../sass/global/_typography.scss */
 .body li {
   list-style: disc;
 }
 
 /* line 2, ../sass/global/_icons.scss */
 [class*="icon-"] {
-  display: block;
-  background: url('/assets/images/sprite.svg?1398898622') no-repeat 0 0;
+  display: inline-block;
+  background: url('/assets/images/sprite.svg?1398987954') no-repeat 0 0;
+  vertical-align: middle;
 }
 
-/* line 7, ../sass/global/_icons.scss */
+/* line 8, ../sass/global/_icons.scss */
 .icon-functional,
 .icon-handsome,
 .icon-adaptable {
@@ -211,28 +213,42 @@ em {
   height: 110px;
 }
 
-/* line 14, ../sass/global/_icons.scss */
+/* line 15, ../sass/global/_icons.scss */
 .icon-handsome {
   background-position: 0 -124px;
 }
 
-/* line 18, ../sass/global/_icons.scss */
+/* line 19, ../sass/global/_icons.scss */
 .icon-adaptable {
   background-position: 0 -246px;
 }
 
-/* line 22, ../sass/global/_icons.scss */
+/* line 23, ../sass/global/_icons.scss */
 .icon-logo-mark {
   width: 60px;
   height: 70px;
   background-position: 0 -366px;
 }
 
-/* line 28, ../sass/global/_icons.scss */
-icon-chicago {
+/* line 29, ../sass/global/_icons.scss */
+.icon-chicago {
   width: 55px;
   height: 48px;
-  background-position: 0 -450px;
+  background-position: 0 -444px;
+}
+
+/* line 35, ../sass/global/_icons.scss */
+.icon-arrow {
+  width: 25px;
+  height: 25px;
+  background-position: 0 -497px;
+}
+
+/* line 41, ../sass/global/_icons.scss */
+.icon-mail {
+  width: 35px;
+  height: 28px;
+  background-position: -36px -497px;
 }
 
 /* 36px*/
@@ -592,6 +608,10 @@ button {
   background: #010101;
   text-align: center;
 }
+/* line 5, ../sass/sections/_footer.scss */
+.footer .wrapper {
+  padding: 48px 0;
+}
 
 /* line 2, ../sass/sections/_hero.scss */
 .hero {
@@ -695,6 +715,21 @@ button {
 .info p {
   font-size: 18px;
   line-height: 27px;
+}
+
+/* line 2, ../sass/sections/_work.scss */
+.screen {
+  margin-bottom: 24px;
+}
+
+/* line 6, ../sass/sections/_work.scss */
+.grid-projects p {
+  margin-bottom: 12px;
+}
+
+/* line 10, ../sass/sections/_work.scss */
+.title-project {
+  margin-bottom: 12px;
 }
 
 /* line 2, ../sass/sections/_team.scss */

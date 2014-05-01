@@ -2,4 +2,7 @@
 .footer {
     background: #010101;
     text-align: center;
+    .wrapper {
+        padding: $base*2 0;
+    }
 }

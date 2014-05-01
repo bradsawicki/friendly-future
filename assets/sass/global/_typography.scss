@@ -29,7 +29,7 @@ h1 {
 */
 
 h2 {
-    font-size: 24px;
+    font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 0.025em;
 }
@@ -38,7 +38,7 @@ h3 {
 	font: 400 40px/1em $rooney;
 }
 
-.section-title {
+.title-section {
     margin-bottom: 56px;
     text-align: center;
 }
@@ -61,7 +61,8 @@ h3 {
 */
 
 p {
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 strong {
