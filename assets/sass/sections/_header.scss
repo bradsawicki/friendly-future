@@ -6,6 +6,7 @@
     z-index: 20;
     width: 100%;
     background: #12e2c0;
+
     .wrapper {
         padding: 32px 0;
         max-width: none;
@@ -16,19 +17,34 @@
     @include transition(top, 0.2s, ease-in);
     position: fixed;
     top: -63px;
-    background: rgba($lt-green, 0.9);
+
     &.show {
         top: 0;
+        .logo {
+            display: block;
+        }
     }
+
     .wrapper {
-        padding: 16px 0;
+        padding: 12px 0;
+    }
+
+    .main-nav {
+        padding-top: 18px;
     }
 }
 
 
 .logo {
-    float: left;
     display: none;
+    float: left;
+    font-size: 35px;
+    line-height: 1.75em;
+
+    .icon-logo-mark {
+        float: left;
+        margin-right: 14px;
+    }
 }
 
 .main-nav {
@@ -39,6 +55,7 @@
     float: left;
     margin-left: 40px;
     padding-top: 3px;
+
     &:last-child {
         padding-top: 0;
     }

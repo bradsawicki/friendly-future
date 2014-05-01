@@ -19,7 +19,7 @@
     <header class="header">
         <div class="wrapper">
 
-            <div class="logo">Friendly Future</div>
+            <div class="logo"><span class="icon-logo-mark"></span>Friendly Future</div>
             <nav class="main-nav">
                 <ul>
                     <li><a href="#help">Our Mission</a></li>
@@ -65,18 +65,18 @@
             <h3 class="section-title">Our projects are:</h3>
             
             <div class="grid">
-                <div class="col col-1-3">
-                    <div class="icon"></div>
+                <div class="col-1-3">
+                    <div class="icon-functional"></div>
                     <h2 class="title">Functional</h2>
                     <p>With the broad acceptance of smartphones and tablets, designing separately for mobile is no longer optional. We use responsive design and development methods to create products that look beautiful and perform optimally at any screen size.</p>
                 </div>
-                <div class="col col-1-3">
-                    <div class="icon"></div>
+                <div class="col-1-3">
+                    <div class="icon-handsome"></div>
                     <h2 class="title">Handsome</h2>
                     <p>With the broad acceptance of smartphones and tablets, designing separately for mobile is no longer optional. We use responsive design and development methods to create products that look beautiful and perform optimally at any screen size.</p>
                 </div>
-                <div class="col col-1-3">
-                    <div class="icon"></div>
+                <div class="col-1-3">
+                    <div class="icon-adaptable"></div>
                     <h2 class="title">Adaptable</h2>
                     <p>With the broad acceptance of smartphones and tablets, designing separately for mobile is no longer optional. We use responsive design and development methods to create products that look beautiful and perform optimally at any screen size.</p>
                 </div>
@@ -208,6 +208,7 @@
     <footer class="footer">
         <div class="wrapper">
         
+            <div class="icon-chicago"></div>
             <p>Made in Chicago</p>
             <p class="copyright">Copyright ©<?php echo date('Y'); ?> Friendly Future, LLC. All Rights Reserved.</p>
         </div>

@@ -1,6 +1,6 @@
 
 body {
-    background: #f8f4e9;
+    background: $creme;
 }
 
 .wrapper {
@@ -8,7 +8,7 @@ body {
 	width: 94%;
 	max-width: 1140px;
 	margin: 0 auto;
-	padding: $base*4 0 $base*2;
+	padding: $base*6 0 $base*2;
 
     @include bp-max-width($small) {
         width: 92%;

@@ -2,12 +2,13 @@
 .hero {
     padding-top: 140px;
     padding-bottom: 60px;
-    background: $lt-green;
+    background: $hero-mark;
     text-align: center;
 }
 
 .hero .title {
     margin-bottom: $base;
+
     [class*="line-"] {
         display: block;
     }
