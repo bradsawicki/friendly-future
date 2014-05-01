@@ -712,32 +712,25 @@ button {
 }
 
 /* line 14, ../sass/sections/_team.scss */
-.the-bubs {
-  max-width: 1040px;
-  margin: 0 auto;
-}
-
-/* line 19, ../sass/sections/_team.scss */
 .bub {
   position: relative;
-  float: left;
-  width: 25%;
-}
-/* line 24, ../sass/sections/_team.scss */
-.bub .info {
   text-align: center;
 }
-/* line 28, ../sass/sections/_team.scss */
+/* line 18, ../sass/sections/_team.scss */
+.bub .head-shot {
+  margin-bottom: 24px;
+}
+/* line 22, ../sass/sections/_team.scss */
 .bub .name {
   margin-bottom: 4px;
   color: #3a4946;
   font-size: 36px;
-  line-height: 1em;
+  line-height: 1.1em;
 }
-/* line 35, ../sass/sections/_team.scss */
+/* line 29, ../sass/sections/_team.scss */
 .bub .role {
   color: #00b899;
-  font: 700 16px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
+  font: 900 16px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
 }

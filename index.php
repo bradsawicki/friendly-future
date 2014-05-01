@@ -115,30 +115,30 @@
             
             <p class="intro">With the broad acceptance of smartphones and tablets, designing separately for mobile is no longer optional. We use responsive design and development methods to create products that look beautiful and perform optimally at any screen size.</p>
             
-            <div class="the-bubs">
-                <div class="bub">
+            <div class="the-bubs grid">
+                <div class="bub col-1-4">
                     <div class="head-shot"><img src="/assets/images/bub-phil.jpg" alt="Philip Weber - User Experience" /></div>
                     <div class="info">
                         <h4 class="name">Phil</h4>
                         <div class="role">User Experience</div>
                     </div>
                 </div>
-                <div class="bub">
-                    <div class="head-shot"><img src="/assets/images/bub-phil.jpg" alt="Dan Leu - Visual Design" /></div>
+                <div class="bub col-1-4">
+                    <div class="head-shot"><img src="/assets/images/bub-dan.jpg" alt="Dan Leu - Visual Design" /></div>
                     <div class="info">
                         <h4 class="name">Dan</h4>
-                        <div class="role">Visual Design</div>
+                        <div class="role">Art Direction</div>
                     </div>
                 </div>
-                <div class="bub">
-                    <div class="head-shot"><img src="/assets/images/bub-phil.jpg" alt="Brad Sawicki - Front-end Development" /></div>
+                <div class="bub col-1-4">
+                    <div class="head-shot"><img src="/assets/images/bub-brad.jpg" alt="Brad Sawicki - Front-end Development" /></div>
                     <div class="info">
                         <h4 class="name">Brad</h4>
                         <div class="role">Front-end Development</div>
                     </div>
                 </div>
-                <div class="bub">
-                    <div class="head-shot"><img src="/assets/images/bub-phil.jpg" alt="Steven Wanderski - Back-end Development" /></div>
+                <div class="bub col-1-4">
+                    <div class="head-shot"><img src="/assets/images/bub-steve.jpg" alt="Steven Wanderski - Back-end Development" /></div>
                     <div class="info">
                         <h4 class="name">Steve</h4>
                         <div class="role">Back-end Development</div>

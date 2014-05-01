@@ -11,30 +11,24 @@
     text-align: center;
 }
 
-.the-bubs {
-    max-width: 1040px;
-    margin: 0 auto;
-}
-
 .bub {
     position: relative;
-    float: left;
-    width: 25%;
+    text-align: center;
 
-    .info {
-        text-align: center;
+    .head-shot {
+        margin-bottom: $base;
     }
-
+    
     .name {
         margin-bottom: 4px;
         color: $grey;
         font-size: 36px;
-        line-height: 1em;
+        line-height: 1.1em;
     }
 
     .role {
         color: #00b899;
-        font: 700 16px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
+        font: 900 16px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
