@@ -7,19 +7,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chicago Web Design | Chicago Web Development - Friendly Future</title>
 	<link rel="shortcut icon" href="/images/favicon.ico">
-<!-- 	<link href="/assets/css/fonts/ss-social.css" rel="stylesheet" media="all"> -->
 	<link href="/assets/css/application.css" rel="stylesheet" media="all">
     <script type="text/javascript" src="//use.typekit.net/vbi2hlh.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>	<!--[if lt IE 9]>
-	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
 
     <header class="header">
         <div class="wrapper">
 
-            <div class="logo"><span class="icon-logo-mark"></span>Friendly Future</div>
+            <div class="logo">
+                <a href="#hero"><span class="icon-logo-mark"></span>Friendly Future</a>
+            </div>
             <nav class="main-nav">
                 <ul>
                     <li><a href="#help">Our Mission</a></li>
@@ -32,7 +32,7 @@
         </div>
     </header>
     
-    <section class="hero">
+    <section id="hero" class="hero">
         <div class="wrapper">
 
             <h1 class="title">

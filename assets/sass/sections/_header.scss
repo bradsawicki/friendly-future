@@ -40,6 +40,10 @@
     float: left;
     font-size: 35px;
     line-height: 1.75em;
+    
+    a {
+        color: $black;
+    }
 
     .icon-logo-mark {
         float: left;
@@ -63,7 +67,7 @@
 
 .main-nav a {
     color: #fff;
-    font: 900 15px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
+    font: 900 15px/1em $brandon;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }

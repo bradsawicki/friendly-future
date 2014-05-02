@@ -566,28 +566,32 @@ button {
   line-height: 1.75em;
 }
 /* line 44, ../sass/sections/_header.scss */
+.logo a {
+  color: #010101;
+}
+/* line 48, ../sass/sections/_header.scss */
 .logo .icon-logo-mark {
   float: left;
   margin-right: 14px;
 }
 
-/* line 50, ../sass/sections/_header.scss */
+/* line 54, ../sass/sections/_header.scss */
 .main-nav {
   float: right;
 }
 
-/* line 54, ../sass/sections/_header.scss */
+/* line 58, ../sass/sections/_header.scss */
 .main-nav li {
   float: left;
   margin-left: 40px;
   padding-top: 3px;
 }
-/* line 59, ../sass/sections/_header.scss */
+/* line 63, ../sass/sections/_header.scss */
 .main-nav li:last-child {
   padding-top: 0;
 }
 
-/* line 64, ../sass/sections/_header.scss */
+/* line 68, ../sass/sections/_header.scss */
 .main-nav a {
   color: #fff;
   font: 900 15px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
@@ -595,7 +599,7 @@ button {
   text-transform: uppercase;
 }
 
-/* line 71, ../sass/sections/_header.scss */
+/* line 75, ../sass/sections/_header.scss */
 .main-nav .btn {
   padding: 8px 11px;
   border-radius: 2px;
