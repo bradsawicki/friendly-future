@@ -613,6 +613,25 @@ button {
   padding: 48px 0;
 }
 
+/* line 10, ../sass/sections/_footer.scss */
+.footer .icon-chicago {
+  margin-bottom: 12px;
+}
+
+/* line 14, ../sass/sections/_footer.scss */
+.made-in {
+  margin-bottom: 24px;
+  color: #797979;
+  font: 900 14px/1 "brandon-grotesque", Helvetica, arial, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* line 22, ../sass/sections/_footer.scss */
+.copyright {
+  font: 600 14px/1 "brandon-grotesque", Helvetica, arial, sans-serif;
+}
+
 /* line 2, ../sass/sections/_hero.scss */
 .hero {
   padding-top: 140px;

@@ -209,7 +209,7 @@
         <div class="wrapper">
         
             <div class="icon-chicago"></div>
-            <p>Made in Chicago</p>
+            <p class="made-in">Made in Chicago</p>
             <p class="copyright">Copyright ©<?php echo date('Y'); ?> Friendly Future, LLC. All Rights Reserved.</p>
         </div>
     </footer>

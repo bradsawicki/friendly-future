@@ -6,3 +6,19 @@
         padding: $base*2 0;
     }
 }
+
+.footer .icon-chicago {
+    margin-bottom: 12px;
+}
+
+.made-in {
+    margin-bottom: $base;
+    color: $lt-grey;
+    font: 900 14px/1 $brandon;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.copyright {
+    font: 600 14px/1 $brandon;
+}
