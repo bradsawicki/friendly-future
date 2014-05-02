@@ -13,8 +13,12 @@
 
 .help li {
     max-width: 700px;
-    margin-bottom: $base;
+    margin-bottom: 32px;
     color: #fff;
     font: $bold 46px/56px $brandon;
     text-transform: uppercase;
+    
+    &:last-of-type {
+        margin-bottom: 0;
+    }
 }

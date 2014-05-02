@@ -691,7 +691,7 @@ button {
 
 /* line 2, ../sass/sections/_help.scss */
 .help {
-  background: url('/assets/images/bg-help.jpg?1388160546') no-repeat center top #010101;
+  background: url('/assets/images/bg-help.jpg?1398989688') no-repeat center center #3a4946;
 }
 /* line 4, ../sass/sections/_help.scss */
 .help .wrapper {
@@ -707,10 +707,14 @@ button {
 /* line 14, ../sass/sections/_help.scss */
 .help li {
   max-width: 700px;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   color: #fff;
   font: 700 46px/56px "brandon-grotesque", Helvetica, arial, sans-serif;
   text-transform: uppercase;
+}
+/* line 21, ../sass/sections/_help.scss */
+.help li:last-of-type {
+  margin-bottom: 0;
 }
 
 /* line 2, ../sass/sections/_info.scss */
