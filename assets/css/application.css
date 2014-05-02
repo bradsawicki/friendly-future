@@ -453,7 +453,7 @@ textarea:focus {
 
 /* line 36, ../sass/global/_forms.scss */
 textarea {
-  height: 300px;
+  height: 345px;
   padding-bottom: 60px;
   resize: none;
 }
@@ -506,14 +506,19 @@ textarea {
 /* line 87, ../sass/global/_forms.scss */
 button {
   width: 98%;
-  padding: 0.7em 2em;
+  padding: 0.8em 2em;
   border: none;
   color: #12e2c0;
   background: #3a4946;
-  font: 700 20px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
-  letter-spacing: 2px;
+  font: 900 20px/1em "brandon-grotesque", Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
   text-transform: uppercase;
   cursor: pointer;
+}
+/* line 98, ../sass/global/_forms.scss */
+button .icon-mail {
+  margin-right: 4px;
+  vertical-align: -8px;
 }
 
 /* Sections */
