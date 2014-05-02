@@ -620,17 +620,21 @@ button {
   background: url('/assets/images/hero-mark.svg?1398897929') no-repeat center center #12e2c0;
   text-align: center;
 }
+/* line 8, ../sass/sections/_hero.scss */
+.hero .wrapper {
+  padding: 48px 0;
+}
 
-/* line 9, ../sass/sections/_hero.scss */
+/* line 13, ../sass/sections/_hero.scss */
 .hero .title {
   margin-bottom: 24px;
 }
-/* line 12, ../sass/sections/_hero.scss */
+/* line 16, ../sass/sections/_hero.scss */
 .hero .title [class*="line-"] {
   display: block;
 }
 
-/* line 17, ../sass/sections/_hero.scss */
+/* line 21, ../sass/sections/_hero.scss */
 .hero .line-1 {
   margin-bottom: 18px;
   color: #009980;
@@ -640,7 +644,7 @@ button {
   text-transform: uppercase;
 }
 
-/* line 26, ../sass/sections/_hero.scss */
+/* line 30, ../sass/sections/_hero.scss */
 .hero .line-2 {
   color: #fff;
   font-size: 140px;
@@ -649,7 +653,7 @@ button {
   text-transform: uppercase;
 }
 
-/* line 34, ../sass/sections/_hero.scss */
+/* line 38, ../sass/sections/_hero.scss */
 .hero .line-3 {
   color: #fff;
   font: italic 400 108px/1 "rooney-web", Georgia, serif;
@@ -657,7 +661,7 @@ button {
   text-transform: none;
 }
 
-/* line 41, ../sass/sections/_hero.scss */
+/* line 45, ../sass/sections/_hero.scss */
 .hero .intro {
   max-width: 650px;
   margin: 0 auto 48px;
@@ -719,7 +723,7 @@ button {
 
 /* line 2, ../sass/sections/_work.scss */
 .screen {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 /* line 6, ../sass/sections/_work.scss */

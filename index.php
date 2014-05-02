@@ -98,7 +98,7 @@
                     <p><a href="" target="_blank">Launch the site <span class="icon-arrow"></span></a>
                 </div>
                 <div class="col col-1-2">
-                    <div class="screen"><img src="/assets/images/screen-teg.jpg" alt="The Everygirl" /></div>
+                    <div class="screen"><img src="/assets/images/screen-smas.jpg" alt="Sing Me a Story" /></div>
                     <h2 class="title-project">Sing Me a Story</h2>
                     <p>With the broad acceptance of smartphones and tablets, designing separately for mobile is no longer optional. We use responsive design and development methods to create products that look beautiful and perform optimally at any screen size.</p>
                     <p><a href="" target="_blank">Launch the site <span class="icon-arrow"></span></a>

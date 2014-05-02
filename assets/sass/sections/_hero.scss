@@ -4,6 +4,10 @@
     padding-bottom: 60px;
     background: $hero-mark;
     text-align: center;
+    
+    .wrapper {
+        padding: $base*2 0;
+    }
 }
 
 .hero .title {
